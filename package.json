@@ -1,0 +1,34 @@
+{
+	"name": "𝕯𝖆𝖘 𝕷𝖆𝖇𝖔𝖗𝖆𝖙𝖔𝖗𝖞® Cockpit Copilot™",
+	"version": "2.0.0",
+	"private": true,
+	"description": "A chrome extension that makes working with the simpleshow cockpit a little bit more convenient.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:DasLaboratory/cockpit-copilot-neo-bex.git"
+	},
+	"author": "Nicolas Reibnitz <n.reibnitz@gmail.com> (https://daslaboratory.com)",
+	"homepage": "https://github.com/DasLaboratory/cockpit-copilot-neo-bex",
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"compile": "tsc --noEmit",
+		"dev": "vite"
+	},
+	"keywords": [
+		"simpleshow interactive",
+		"Das Laboratory",
+		"chrome extension",
+		"mad science",
+		"simpleshow cockpit"
+	],
+	"devDependencies": {
+		"@das.laboratory/eslint-config-interactive-ts": "^0.0.1",
+		"@types/webextension-polyfill": "^0.10.0",
+		"typescript": "^5.3.2",
+		"vite": "^5.0.0",
+		"vite-plugin-web-extension": "^4.0.0",
+		"webextension-polyfill": "^0.10.0"
+	}
+}
