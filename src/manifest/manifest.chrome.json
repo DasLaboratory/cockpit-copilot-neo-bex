@@ -16,11 +16,14 @@
 	"action": {
 		"default_icon": {
 			"16": "icons/idle/icon-16x16.png",
-			"32": "icons/idle/icon-32x32.png"
+			"32": "icons/idle/icon-32x32.png",
+			"48": "icons/idle/icon-48x48.png",
+			"96": "icons/idle/icon-96x96.png",
+			"128": "icons/idle/icon-128x128.png"
 		},
 		"default_title": "𝕯𝖆𝖘 𝕷𝖆𝖇𝖔𝖗𝖆𝖙𝖔𝖗𝖞® Cockpit Copilot™"
 	},
-	"permissions": ["activeTab", "scripting"],
+	"permissions": ["activeTab"],
 	"host_permissions": ["<all_urls>", "*://*.simpleshow-cockpit.com/*", "*://*.video-cockpit.com/*"],
 	"externally_connectable": {
 		"matches": ["*://*.simpleshow-cockpit.com/*", "*://*.video-cockpit.com/*"]

@@ -10,7 +10,7 @@ function generateManifest() {
 			: readJsonFile('src/manifest/manifest.firefox.json');
 	const pkg = readJsonFile('package.json');
 	return {
-		name: pkg.name,
+		name: pkg.displayName,
 		description: pkg.description,
 		version: pkg.version,
 		...manifest
@@ -18,6 +18,9 @@ function generateManifest() {
 }
 
 export default defineConfig({
+	build: {
+		emptyOutDir: true
+	},
 	plugins: [
 		webExtension({
 			manifest: generateManifest,
